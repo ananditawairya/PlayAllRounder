@@ -1,0 +1,51 @@
+.main-parent {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.initial-style {
+  width: 10em;
+  height: 10em;
+  border-radius: 54%;
+  cursor: pointer;
+}
+.paper {
+  border: 10px solid #2196f3;
+  margin-right: 15px;
+}
+.rock {
+  border: 10px solid #c2185b;
+  margin-right: 15px;
+}
+.scissor {
+  border: 10px solid #f9a825;
+}
+
+.selected-image {
+  width: 15em;
+  height: 15em;
+  border-radius: 54%;
+}
+
+.image-container {
+  border: 5px outset powderblue;
+  background-color: lightblue;
+  margin-top: 50px;
+}
+
+.result-container {
+  top: 10%;
+  transform: translate(40%, 49%);
+}
+.message {
+  color: yellow;
+  font-size: 1em;
+  font-weight: bold;
+}
+.hidden {
+  cursor: pointer;
+  display: none;
+}
