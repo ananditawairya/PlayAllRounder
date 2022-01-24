@@ -8,15 +8,17 @@
 }
 .score-title {
   color: #486f8f;
+  /* #35317a; */
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
   font-size: 0.9em;
 }
 .title {
   color: #8bc34a;
+  /* #6fff55 */
   font-size: 3em;
 }
-.App-header {
+.Game1-header {
   border: 5px solid palegoldenrod;
   margin: 2% 10%;
 }
@@ -35,4 +37,10 @@
   background: #c6ffdd;
   font-weight: bold;
   color: #7b8ebf;
+}
+.board-container {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
 }

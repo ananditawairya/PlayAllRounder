@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import scissor from "../../Assets/scissor.JPG";
-import paper from "../../Assets/paper.JPG";
-import rock from "../../Assets/rock.JPG";
+import scissor from "../../../Assets/scissor.JPG";
+import paper from "../../../Assets/paper.JPG";
+import rock from "../../../Assets/rock.JPG";
 import "./Main.css";
 
 function Main(props) {

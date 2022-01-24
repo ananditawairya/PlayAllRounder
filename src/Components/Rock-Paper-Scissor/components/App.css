@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto+Slab&family=Roboto:wght@300&display=swap");
+.score-container {
+  width: 10%;
+  background: #f5f5f5;
+  border: 3px solid black;
+  text-align: center;
+  border-radius: 5px;
+}
+.score-title {
+  color: #486f8f;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 0.9em;
+}
+.title {
+  color: #8bc34a;
+  font-size: 3em;
+}
+.Game1-header {
+  border: 5px solid palegoldenrod;
+  margin: 2% 10%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+.instruction-button {
+  position: fixed;
+  bottom: 2.2em;
+  right: 10.2em;
+  padding: 10px;
+  border-radius: 17px;
+  background: #c6ffdd;
+  font-weight: bold;
+  color: #7b8ebf;
+}

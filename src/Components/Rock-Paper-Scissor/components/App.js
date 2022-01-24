@@ -1,6 +1,7 @@
 import "./App.css";
 import Main from "./Main";
-import Popup from "../../Helpers/Popup";
+import Popup from "../../../Helpers/components/Popup";
+import RockPaperScissor from "../../../Assets/Rock-paper-scissors-ins.jpg";
 import React, { useState } from "react";
 function App() {
   const [isPopupOpen, setPopupOpenState] = useState(false);
@@ -24,8 +25,8 @@ function App() {
   const content =
     "This is a two player game in which the players select either rock paper or scissor using their hands. The rules are-";
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="Game1">
+      <header className="Game1-header">
         <div className="nav-container">
           <div className="score-container">
             <h4 className="score-title">Player's score</h4>
@@ -50,6 +51,7 @@ function App() {
         <Popup
           title={title}
           content={content}
+          image={RockPaperScissor}
           className="popup"
           handleToggle={handleToggle}
         />

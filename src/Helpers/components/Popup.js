@@ -1,6 +1,5 @@
 import React from "react";
 import "./Popup.css";
-import Instruction from "../Assets/Rock-paper-scissors-ins.jpg";
 function Popup(props) {
   const handleToggle = () => {
     props.handleToggle();
@@ -13,7 +12,7 @@ function Popup(props) {
         </i>
         <h1>{props.title}</h1>
         <p>{props.content}</p>
-        <img src={Instruction} alt="instructions" />
+        <img src={props.image} alt="instructions" className="instructions" />
       </div>
     </div>
   );
